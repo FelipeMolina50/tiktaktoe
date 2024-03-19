@@ -4,9 +4,9 @@ pygame.init()
 interfaz=pygame.display.set_mode((450,450))
 pygame.display.set_caption("TriKy")
 
-fondo = pygame.image.load("tiktaktoe/Fondo.png")
-circulo = pygame.image.load("tiktaktoe/Circulo.png")
-equis = pygame.image.load("tiktaktoe/equis.png")
+fondo = pygame.image.load("Fondo.png")
+circulo = pygame.image.load("Circulo.png")
+equis = pygame.image.load("equis.png")
 
 fondo = pygame.transform.scale(fondo,(450,450))
 circulo = pygame.transform.scale(circulo,(200,200))
@@ -47,7 +47,7 @@ def verificar_ganador():
             return True
     if tablero[0][0] == tablero[1][1] == tablero[2][2] != "":
         return True
-    if tablero[0][2] == tablero[1][i] == tablero[2][0] != "":
+    if tablero[0][2] == tablero[1][1] == tablero[2][0] != "":
         return True
     return False
 while not fin_Juego:
