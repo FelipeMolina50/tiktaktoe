@@ -47,7 +47,7 @@ def verificar_ganador():
             return True
     if tablero[0][0] == tablero[1][1] == tablero[2][2] != "":
         return True
-    if tablero[0][2] == tablero[1][i] == tablero[2][0] != "":
+    if tablero[0][2] == tablero[1][1] == tablero[2][0] != "":
         return True
     return False
 while not fin_Juego:
