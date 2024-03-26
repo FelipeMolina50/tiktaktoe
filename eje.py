@@ -4,9 +4,9 @@ pygame.init()
 interfaz=pygame.display.set_mode((450,450))
 pygame.display.set_caption("TriKy")
 
-fondo = pygame.image.load("tiktaktoe/Fondo.png")
-circulo = pygame.image.load("tiktaktoe/Circulo.png")
-equis = pygame.image.load("tiktaktoe/equis.png")
+fondo = pygame.image.load("Fondo.png")
+circulo = pygame.image.load("Circulo.png")
+equis = pygame.image.load("equis.png")
 
 fondo = pygame.transform.scale(fondo,(450,450))
 circulo = pygame.transform.scale(circulo,(200,200))
